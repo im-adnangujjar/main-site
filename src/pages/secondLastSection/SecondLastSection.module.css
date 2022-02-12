@@ -1,0 +1,122 @@
+.subDiv{
+    background-color: #00004f;
+    padding: 60px;
+
+}
+.heading{
+    color: #fff;
+    font-size:30px ;
+    line-height: 45px;
+    padding-bottom: 7px;
+    margin-bottom: 40px;
+}
+.paragraph{
+    font-size: 15px;
+    line-height: 22px;
+    letter-spacing: .03em;
+    margin-bottom: 16px;
+    color: #fff;
+}
+.imag1bg{
+    display: flex;
+    justify-content: space-around;
+    align-items: center;
+    background-color: white;
+    width:120px;
+    height: 120px;
+    border-radius: 140px;
+
+}
+.display1{
+    width: 370px;
+    display: flex;
+    flex-direction: row;
+    flex-wrap: wrap;
+    justify-content: space-between;
+    margin-left: 110px;
+    margin-top: -50px;
+
+}
+.display2{
+    width: 370px;
+    display: flex;
+    flex-direction: row;
+    flex-wrap: wrap;
+    justify-content: space-between;
+}
+.display3{
+    width: 370px;
+    display: flex;
+    flex-direction: row;
+    flex-wrap: wrap;
+    justify-content: space-between;
+    margin-top: -50px;
+
+}
+.iconbg{
+background-color: #f05c2f;
+color: white;
+display: flex;
+justify-content: center;
+align-items: center;
+width:50px;
+height: 50px;
+border-radius:50px ;
+}
+.paragraph2{
+    color: #fff;
+    margin-top: 12px;
+    padding-left: 20px;
+    font-weight: 600;
+    margin-top:20px ;
+}
+.display4{
+    display: flex;
+    margin-top:20px ;
+    justify-content: start;
+    align-items: center;
+}
+@media screen and (max-width:760px){
+    .subDiv{
+    background-color: #00004f;
+    padding: 60px 30px ;
+    }
+    .imag1bg{
+        display:hidden;
+        justify-content: space-around;
+        align-items: center;
+        background-color: white;
+        width:0px;
+        height: 0px;
+        border-radius: 0px;
+    
+    }
+    .display1{
+        width: 370px;
+        display: none;
+        flex-direction: row;
+        flex-wrap: wrap;
+        justify-content: space-between;
+        margin-left: 110px;
+        margin-top: -50px;
+    
+    }
+    .display2{
+        width: 370px;
+        display: none;
+        flex-direction: row;
+        flex-wrap: wrap;
+        justify-content: space-between;
+    }
+    .display3{
+        width: 370px;
+        display: none;
+        flex-direction: row;
+        flex-wrap: wrap;
+        justify-content: space-between;
+        margin-top: -50px;
+    
+    }
+    
+    
+}

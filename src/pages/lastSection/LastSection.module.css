@@ -1,0 +1,71 @@
+.mainDiv{
+    padding-left: 30px;
+    padding-right: 30px;
+    
+}
+.subDiv{
+display: flex;
+flex-direction: column;
+/* justify-content: space-between; */
+height: 550px;
+padding-top:5 ;
+padding-bottom:23 ;
+/* align-items:center ; */
+
+}
+.heading{
+    color: #000;
+    font-weight: 900;
+    font-size:38px ;
+    margin-bottom: 30px;
+}
+.heading1{
+    font-size: 18px;
+    color:#f05c2f;
+    font-weight: bold;
+}
+.Adress{
+    font-size: 15px;
+    line-height: 22px;
+    color: #636262;
+    letter-spacing: i6px;
+    margin-bottom:20px;
+}
+.num{
+    font-size: 15px;
+    line-height: 22px;
+    letter-spacing: .03em;
+    color: #636262;
+}
+.link{
+    font-weight: 900;
+    font-size: 25px;
+margin-bottom: 16px;
+}
+.button{
+display:flex;
+justify-content: center;
+align-items: center;
+background-color: #f05c2f;
+color:white;
+width:150px;
+height:40px;
+border-radius: 10px;
+}
+.paragraph2{
+    margin-bottom: 16px;
+    padding-top:10px;
+    font-Size:18px;
+    text-align: center;
+}
+.display{
+    display: flex;
+    /* flex-direction: column; */
+    justify-content: center;
+    text-align: center;
+}
+.img1{
+width:100%;
+}
+
+   

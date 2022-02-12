@@ -1,0 +1,36 @@
+
+.Card{
+    height:200px;
+    width:350px;
+    background-color :blue;
+    border-radius: 15px;
+
+}
+.disp{
+display: flex;
+justify-content: start;
+align-items: center;
+margin-left: 20px;
+padding-top: 20px;
+}
+.paragraph1{
+    font-weight: 200;
+    letter-spacing: .8px;
+    font-size: 15px;
+    line-height: 22px;
+    color:#262626
+}
+.paragraph2{
+padding-top: 20px;
+margin-bottom: 16px;
+font-size: 15px;
+text-align: center;
+line-height: 22px;
+color: #636262;
+}
+.images{
+background-image: url(..//../assets/mobile-icon-bg.png);
+background-repeat: no-repeat;
+padding-right: 35px;
+padding-bottom: 10px;
+}

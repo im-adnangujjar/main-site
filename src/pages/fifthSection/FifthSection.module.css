@@ -1,0 +1,52 @@
+.mainDiv{
+  padding:0px 60px 0px 60px
+}
+.subDiv{
+padding-top:60px ;
+padding-bottom: 90px;
+}
+.heading1{
+    font-weight: 800;
+    font-size: 38px;
+    line-height: 45px;
+    letter-spacing: .2vh;
+    margin-bottom:16px ;
+text-align:center;
+}
+.paragraph1{
+    font-size: 15px;
+    line-height: 22px;
+    letter-spacing: .03em;
+    padding-bottom: 60px;
+    margin-bottom: 16px;
+    color: #636262;
+    text-align: center;
+}
+.disp{
+    display: flex;
+    justify-content: space-around;
+    align-items:center ;
+}
+@media screen and (max-width:760px){
+    .mainDiv{
+        padding-left: 30px;
+        padding-right:30px ; 
+    }
+    .heading1{
+        font-weight: 400;
+        font-size: 30px;
+        text-align:center;
+        line-height: 45px;
+        letter-spacing: .2vh;
+        margin:0px 0px 16px 0px ;
+    }
+    .paragraph1{
+        font-size: 14px;
+        text-align: center;
+        line-height: 18px;
+        letter-spacing: .03em;
+        padding-bottom: 60px;
+        margin:0px 0px 16px 0px;
+        color: #636262;
+}
+}
