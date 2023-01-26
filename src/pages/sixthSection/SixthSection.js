@@ -27,7 +27,6 @@ function SixthSection() {
             </div>
             <div className={style.imgdisp}>
               <div><img src={aspect} style={{ width: '100px' }} /></div>
-
               <div><img src={workScaler} style={{ width: '100px' }} /></div>
               <div> <img src={beauty} style={{ width: '100px' }} /></div>
               <div> <img src={kospak} style={{ width: '100px' }} /></div>

@@ -1,6 +1,7 @@
 import { Grid } from '@mui/material';
 import React from 'react';
 import style from './FooterSection.module.css'
+// import GitHubIcon from '@mui/icons-material/GitHub';
 import GitHubIcon from '@mui/icons-material/GitHub';
 import InstagramIcon from '@mui/icons-material/Instagram';
 import FacebookIcon from '@mui/icons-material/Facebook';
